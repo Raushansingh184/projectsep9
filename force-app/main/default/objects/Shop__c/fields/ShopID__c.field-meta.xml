@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ShopID__c</fullName>
+    <description>Custom field_Picklist</description>
+    <externalId>false</externalId>
+    <label>ShopID</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Shop A</fullName>
+                <default>false</default>
+                <label>Shop A</label>
+            </value>
+            <value>
+                <fullName>Shop B</fullName>
+                <default>false</default>
+                <label>Shop B</label>
+            </value>
+            <value>
+                <fullName>Shop C</fullName>
+                <default>false</default>
+                <label>Shop C</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

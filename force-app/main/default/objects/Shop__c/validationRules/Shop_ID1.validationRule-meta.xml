@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shop_ID1</fullName>
+    <active>false</active>
+    <description>validation rule2</description>
+    <errorConditionFormula>IF(AND( ISPICKVAL( ShopID__c , &#39;Shop B&#39;), Discount__c  &gt; 0.10), true,False)</errorConditionFormula>
+    <errorMessage>Shop B Discount should not be greater than 10%</errorMessage>
+</ValidationRule>
