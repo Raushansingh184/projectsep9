@@ -1,6 +1,7 @@
 public with sharing class Account_opp {
   
 public Account acctest{get;set;} 
+contact con{get;set;}
  public list<wrapperclass> opp1=new list<wrapperclass>();
    
  public list<account> acc=new list<Account>();
