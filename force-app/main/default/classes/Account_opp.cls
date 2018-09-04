@@ -1,10 +1,18 @@
 public with sharing class Account_opp {
-    public list<wrapperclass> opp1=new list<wrapperclass>();
-    public list<account> acc=new list<Account>();
-    public string selectedvalue{get;set;}
-    public Account_opp(ApexPages.StandardController controller) {
-     for(account acc1:[select id,name from account ]){
-     acc.add(acc1);
+  
+public Account acctest{get;set;} 
+ public list<wrapperclass> opp1=new list<wrapperclass>();
+   
+ public list<account> acc=new list<Account>();
+    
+public string selectedvalue{get;set;}
+    
+public Account_opp(ApexPages.StandardController controller) 
+{
+     
+for(account acc1:[select id,name from account ]){
+     
+acc.add(acc1);
      insert acc;
      }
     }
