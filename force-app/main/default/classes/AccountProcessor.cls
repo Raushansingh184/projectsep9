@@ -2,7 +2,9 @@ public class AccountProcessor{
 
 
 public void func(){
-    list<account> acclst=[select id ,name from Account];
+    
+Public List<account> lstaccdx=new list<account>();
+list<account> acclst=[select id ,name from Account];
 list<id> accid=new list<id>();
 for(account acc : acclst){
 accid.add(acc.id);
